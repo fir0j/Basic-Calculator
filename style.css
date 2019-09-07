@@ -1,0 +1,48 @@
+* {
+  margin:0;
+  padding:0;
+  box-sizing: content-box;
+  background-color:gold;
+}
+
+body {
+  display:flex;
+  justify-content:center;
+}
+
+table {
+  position:relative;
+  background-color:rgba(1,1,1,0.7);
+  
+}
+
+
+input {
+  position:relative;
+  font-size:2.5rem;
+  height:140px;
+  background-color:#444;
+  opacity:0.9;
+  box-shadow: inset 0px 0px 30px -6px;
+  padding-left:20px;
+  font-family: 'Orbitron', sans-serif;
+  outline:none;
+}
+
+
+td {
+  background-color:rgba(0,0,0,0.8);
+}
+
+tr:last-child input{
+  position:relative;
+  width:23%;
+  background-color:#444;
+  color:white;
+  opacity:1
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  padding-left:0;
+  
+}
